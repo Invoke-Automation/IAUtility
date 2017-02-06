@@ -3,7 +3,8 @@ function Invoke-WebSearch {
 	Param(
 		[Parameter(
 			Mandatory = $true,
-			Position = 1
+			Position = 1,
+			ValueFromPipeline = $true
 		)]
 		[String]$SearchQuery,
 		[Parameter(
@@ -14,10 +15,7 @@ function Invoke-WebSearch {
 	)
 	Begin{}
 	Process {
-		Write-Host $SearchQuery
-		$SearchQuery = [Uri]::EscapeDataString($SearchQuery) #($SearchQuery -replace '''','''''')
-		Write-Host $SearchQuery
-		#$SearchQuery = ($SearchQuery.Trim() -replace '\s+','') -replace ' ','+'
+		$SearchQuery = [Uri]::EscapeDataString($SearchQuery)
 		switch ($SearchEngine) {
 			"Google" {
 				$URL = ('https://www.google.com/search?q=' + $SearchQuery)
