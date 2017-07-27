@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/project/TomasDeceuninck/iautility?svg=true)](https://ci.appveyor.com/project/TomasDeceuninck/iautility)
+
 IAUtility
 =============
 Invoke-Automation Utility module is a collection of several usefull PowerShell cmdlets.
