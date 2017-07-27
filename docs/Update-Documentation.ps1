@@ -20,6 +20,6 @@ if(-not ((Test-Path $docsPath) -and (Test-Path $modulePath))){
 		New-MarkdownHelp -Module $moduleName -OutputFolder $docsPath -Locale $locale -Force
 		New-ExternalHelp -Path $docsPath -OutputPath (Join-Path -Path $modulePath -ChildPath $locale) -Force
 	} else {
-		Write-Error -Message "You require the platyPS module to generate new documentation"
+		throw "You require the platyPS module to generate new documentation"
 	}
 }
