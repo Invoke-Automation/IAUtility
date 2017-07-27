@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/project/TomasDeceuninck/iautility?svg=true)](https://ci.appveyor.com/project/TomasDeceuninck/iautility)
+[![Build status](https://ci.appveyor.com/api/projects/status/6p36i9vx4vb8p3yk/branch/master?svg=true)](https://ci.appveyor.com/project/TomasDeceuninck/iautility)
 
 IAUtility
 =============
