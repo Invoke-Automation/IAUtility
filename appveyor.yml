@@ -59,4 +59,4 @@ test_script:
   - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:GitHubKey):x-oauth-basic@github.com`n"
   - git config --global user.email "tomas.deceuninck@gmail.com"
   - git config --global user.name "Tomas Deceuninck"  
-  - ps: . .\Tests\build.ps1
+  - ps: . .\build.ps1
