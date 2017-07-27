@@ -39,9 +39,10 @@ if ($env:APPVEYOR_REPO_BRANCH -ne 'master') {
 
 	# Publish the new version to the PowerShell Gallery
 	Try {
+		Import-Module '.\IAUtility' -Force
 		# Build a splat containing the required details and make sure to Stop for errors which will trigger the catch
 		$PM = @{
-			Path        = '.\IAUtility'
+			Name        = 'IAUtility'
 			NuGetApiKey = $env:NuGetApiKey
 			ErrorAction = 'Stop'
 		}
