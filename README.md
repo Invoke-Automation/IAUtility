@@ -5,7 +5,7 @@ Invoke-Automation Utility module is a collection of several usefull PowerShell c
 Getting started
 ===============
 ## Requirements
-Windows PowerShell 5.0 or greater
+Windows PowerShell 3.0 or greater
 
 ## Usage
 Import the module

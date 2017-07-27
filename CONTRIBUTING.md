@@ -1,6 +1,6 @@
 Contributing
 ============
-Thanks for taking an insterest in contributing to the AtlassianCLI!
+Thanks for taking an insterest in contributing to the IAUtility!
 
 Branching model
 ---------------
