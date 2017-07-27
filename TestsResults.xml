@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-07-27" time="21:59:41">
+  <environment user="appveyor" machine-name="APPVYR-WIN" cwd="C:\projects\iautility" user-domain="APPVYR-WIN" platform="Microsoft Windows Server 2012 R2 Datacenter|C:\windows|\Device\Harddisk0\Partition5" nunit-version="2.5.8.0" os-version="6.3.9600" clr-version="4.0.30319.42000" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="0.8234" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\projects\iautility\Tests\Invoke-WebSearch.Tests.ps1" executed="True" result="Success" success="True" time="0.8234" asserts="0" description="C:\projects\iautility\Tests\Invoke-WebSearch.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Invoke-WebSearch" executed="True" result="Success" success="True" time="0.8234" asserts="0" description="Invoke-WebSearch">
+            <results>
+              <test-case description="Starts the correct search query" name="Invoke-WebSearch.Starts the correct search query" time="0.8234" asserts="0" success="True" result="Success" executed="True" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
