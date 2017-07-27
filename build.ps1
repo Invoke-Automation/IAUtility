@@ -41,7 +41,7 @@ if ($env:APPVEYOR_REPO_BRANCH -ne 'master') {
 	Try {
 		# Build a splat containing the required details and make sure to Stop for errors which will trigger the catch
 		$PM = @{
-			Path        = $manifestPath
+			Path        = '.\IAUtility\'
 			NuGetApiKey = $env:NuGetApiKey
 			ErrorAction = 'Stop'
 		}
